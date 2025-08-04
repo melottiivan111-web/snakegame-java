@@ -9,7 +9,7 @@ import javax.swing.*;
 
 public class SnakeGame extends javax.swing.JFrame {
 
-    ImageIcon icon = new ImageIcon("Game Over.png");
+    ImageIcon icon = new ImageIcon(getClass().getResource("/snakegame/Game Over.png"));
     static int countAzion = 0;                        //contatore di azioni 
     final static int BORDO = -1;                      //costante che segnala nella matrice che si tratta di un bordo
     final static int VUOTO = 0;                       //costante che segnala nella matrice che si tratta di una zona vuota
