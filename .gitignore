@@ -1,0 +1,22 @@
+# Java class files
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+*.iws
+
+# Mac/Linux hidden files
+.DS_Store
+
+# Log
+*.log
+
+# Windows hidden files
+Thumbs.db
