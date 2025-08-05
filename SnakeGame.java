@@ -21,7 +21,7 @@ public class SnakeGame extends javax.swing.JFrame {
     static int campo[][] = new int[400][400];         //area del campo di gioco e della matrice
     final static int XCAMPO = 50;                     //costante (X) che rappresenta la distanza tra il primo pixel e l'inizio del campo
     final static int YCAMPO = 50;                     //costante (Y) che rappresenta la distanza tra il primo pixel e l'inizio del campo
-    static int SNAKELUNG = 5;                         //grandezza massima iniziale del serpente
+    static int SNAKELUNG = 15;                         //grandezza massima iniziale del serpente
     static int countLung = 1;                         //contatore per vedere quanto è lungo il serpente
     static int posmini = 0;
     static int posminj = 0;                           //variabili per trovare l'head e tail dentro la matrice
